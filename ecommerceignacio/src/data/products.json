@@ -1,0 +1,23 @@
+[
+{
+    "name": "macbook",
+    "id": 1,
+    "category": "computador",
+    "detail": "computador portatil apple",
+    "img": "./img/macbook.jpg"
+},
+{
+    "name": "ipad",
+    "id": 2,
+    "category": "tablet",
+    "detail": "tablet apple",
+    "img": "./img/ipad.jpg"
+},
+{
+    "name": "iphone",
+    "id": 3,
+    "category": "celular",
+    "detail": "celular apple",
+    "img": "./img/iphone.jpg"
+}
+]
