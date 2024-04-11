@@ -4,20 +4,20 @@
     "id": 1,
     "category": "computador",
     "detail": "computador portatil apple",
-    "img": "./img/macbook.jpg"
+    "img": "../assets/product/computador01.png"
 },
 {
     "name": "ipad",
     "id": 2,
     "category": "tablet",
     "detail": "tablet apple",
-    "img": "./img/ipad.jpg"
+    "img": "../assets/product/tablet01.png"
 },
 {
     "name": "iphone",
     "id": 3,
     "category": "celular",
     "detail": "celular apple",
-    "img": "./img/iphone.jpg"
+    "img": "../assets/product/celular01.png"
 }
 ]

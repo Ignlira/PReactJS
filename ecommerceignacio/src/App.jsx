@@ -13,7 +13,7 @@ return (
 <BrowserRouter>
   <NavBar/>
     <Routes>
-      <Route path="/home" element={<ItemListContainer/>}/>
+      <Route path="/" element={<ItemListContainer/>}/>
       <Route path="/category/:id" element={<ItemListContainer/>}/>
       <Route path="/Item/:id" element={<ItemDetailContainer/>}/>
     </Routes>

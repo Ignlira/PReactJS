@@ -10,11 +10,11 @@ export const NavBar = () => {
     return (
       <Navbar bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand as={NavLink} to="/Home">ModeShop</Navbar.Brand>
+        <Navbar.Brand as={NavLink} to="/">ModeShop</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link as={NavLink} to="/category/computadores">Computadores</Nav.Link>
-          <Nav.Link as={NavLink} to="/category/tablets">Tablets</Nav.Link>
-          <Nav.Link as={NavLink} to="/category/celulares">Celulares</Nav.Link>
+          <Nav.Link as={NavLink} to="/category/computador">Computadores</Nav.Link>
+          <Nav.Link as={NavLink} to="/category/tablet">Tablets</Nav.Link>
+          <Nav.Link as={NavLink} to="/category/celular">Celulares</Nav.Link>
         </Nav>
         <CartWidget/>
       </Container>
