@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 import  Container from "react-bootstrap/Container";
 import {Itemlist} from "./ItemList";
 import { useParams } from "react-router-dom";
-import data from "../data/products.json";
+
 
 import {
     getFirestore,
